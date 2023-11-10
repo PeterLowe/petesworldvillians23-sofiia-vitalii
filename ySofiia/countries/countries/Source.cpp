@@ -33,6 +33,30 @@ int main()
 		}
 	}
 
+	if (letter == 'a' || letter == 'A') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Argentina" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Albania, Austria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Algeria, Angola" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Afghanistan, Armenia, Azerbaijan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
+		}
+	}
+
 
 	return 1;
 }
