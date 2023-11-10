@@ -71,7 +71,7 @@ int main()
 		}
 		if (region == 4)
 		{
-			std::cout << "Yemen Arabian Peninsula, Middle East" << std::endl;
+			std::cout << "Yemen Arabian Peninsula" << std::endl;
 		}
 		if (region == 5)
 		{
@@ -94,7 +94,7 @@ int main()
 		}
 		if (region == 4)
 		{
-			std::cout << "There are no Xs in the Middle East" << std::endl;
+			std::cout << "There are no Xs in the Asia" << std::endl;
 		}
 		if (region == 5)
 		{
@@ -117,11 +117,34 @@ int main()
 		}
 		if (region == 4)
 		{
-			std::cout << "There are no Ws in the Middle East" << std::endl;
+			std::cout << "There are no Ws in the Asia" << std::endl;
 		}
 		if (region == 5)
 		{
 			std::cout << "Wallis and Futuna Islands Polynesia, Oceania" << std::endl;
+		}
+	}
+	if (letter == 'v' || letter == 'V') // written by Vitalii
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezuela, Virgin Islands (British), Virgin Islands (U.S.)" << std::endl; // default negative response
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Western SaharaNorthern Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu, Oceania" << std::endl;
 		}
 	}
 
