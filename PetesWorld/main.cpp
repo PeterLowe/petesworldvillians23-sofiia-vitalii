@@ -272,5 +272,29 @@ int main()
 		}
 	}
 
+	if (letter == 'i' || letter == 'I') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Honduras" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Iceland, Ireland, Italy" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Ivory Coast" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "India, Indonesia, Iran (Islamic Republic of), Iraq, Israel" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There is not Is Countries" << std::endl;
+		}
+	}
+
 	return 1;
 }
