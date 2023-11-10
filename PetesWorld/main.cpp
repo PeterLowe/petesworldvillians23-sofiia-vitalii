@@ -240,11 +240,35 @@ int main()
 		}
 		if (region == 4)
 		{
-			std::cout << "there is not Fs countries" << std::endl;
+			std::cout << "there is not Gs countries" << std::endl;
 		}
 		if (region == 5)
 		{
 			std::cout << "Georgia, Grenada, Guadeloupe, Guam Micronesia" << std::endl;
+		}
+	}
+
+	if (letter == 'h' || letter == 'H') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Honduras" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Holy See, Hungary" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There is no Hs Countries" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Hong Kong" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Haiti Greater Antilles" << std::endl;
 		}
 	}
 
