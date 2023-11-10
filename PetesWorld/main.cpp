@@ -198,5 +198,31 @@ int main()
 			std::cout << "There is not Es Countries" << std::endl;
 		}
 	}
+
+	if (letter == 'f' || letter == 'f') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "French Guiana, " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France, " << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Falkland Islands, " << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "there is not Fs countries" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia, French Southern Territories" << std::endl;
+		}
+	}
+
+
 	return 1;
 }
