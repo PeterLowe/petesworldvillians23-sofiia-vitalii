@@ -1,8 +1,7 @@
 // program to find countries in Pete's World
 // date November 2022
 // author Pete Lowe
-// add your name here
-//  or here
+// add Sofiia Pankiv
 // estimated time 120 minutes
 // actual time ??
 // version 1.0
@@ -80,6 +79,29 @@ int main()
 
 	}
 	
+	if (letter == 'b' || letter == 'B') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Bangladesh" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Belize" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Bolivia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Brazil" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Barbados, Bahamas" << std::endl;
+		}
+	}
 	
 	
 	return 1;
