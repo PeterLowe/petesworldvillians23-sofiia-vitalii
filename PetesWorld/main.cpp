@@ -199,7 +199,7 @@ int main()
 		}
 	}
 
-	if (letter == 'f' || letter == 'f') // written by Sofiia
+	if (letter == 'f' || letter == 'F') // written by Sofiia
 	{
 		if (region == 1)
 		{
@@ -223,6 +223,30 @@ int main()
 		}
 	}
 
+
+	if (letter == 'g' || letter == 'G') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Greenland, Guatemala, Guinea, Guyana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Germany, Gibraltar, Greece" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Gabon, The Gambia, Ghana, Guinea-Bissau" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "there is not Fs countries" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Georgia, Grenada, Guadeloupe, Guam Micronesia" << std::endl;
+		}
+	}
 
 	return 1;
 }
