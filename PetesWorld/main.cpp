@@ -55,7 +55,7 @@ int main()
 			std::cout << "Australia, Antarctica, Aruba, Anguilla Leeward Islands, Antigua and Barbuda, American Samoa" << std::endl;
 		}
 	}	
-
+	    
 	if (letter == 'y' || letter == 'Y') // written by Vitalii
 	{
 		if (region == 1)
