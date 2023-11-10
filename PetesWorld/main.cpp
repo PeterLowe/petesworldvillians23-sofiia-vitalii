@@ -126,6 +126,30 @@ int main()
 			std::cout << "Barbados, Bahamas" << std::endl;
 		}
 	}
+
+	if (letter == 'c' || letter == 'C') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Canada, Chile, Colombia, Costa Rica " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Croatia Balkan Peninsula, Czech Republic" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Cameroon, Cape Verde, Central African Republic, Chad, Comoros, Democratic Republic of the Congo (Kinshasa), Congo, Côte D'ivoire (Ivory Coast)" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Cambodia, China, Christmas Island, Cocos (Keeling) Islands, Cyprus Mediterranean" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Cayman Islands Greater Antilles, Cook Islands, Cuba" << std::endl;
+		}
+	}
 	
 	return 1;
 }
