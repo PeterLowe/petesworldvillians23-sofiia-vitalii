@@ -103,6 +103,29 @@ int main()
 		}
 	}
 	
+	if (letter == 'b' || letter == 'B') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Bangladesh, Belize, Bolivia, Bermuda, Brazil" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "BahrainArabian Peninsula, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Benin, Botswana, Burkina Faso, Burundi" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Bangladesh, Bhutan, Brunei Darussalam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Barbados, Bahamas" << std::endl;
+		}
+	}
 	
 	return 1;
 }
