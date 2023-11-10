@@ -22,7 +22,7 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
-	std::cout << "Pick a letter from A to A or T to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to A or S to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
@@ -148,7 +148,7 @@ int main()
 			std::cout << "Vanuatu, Oceania" << std::endl;
 		}
 	}
-	if (letter == 'U' || letter == 'U') // written by Vitalii
+	if (letter == 'u' || letter == 'U') // written by Vitalii
 	{
 		if (region == 1)
 		{
@@ -194,7 +194,29 @@ int main()
 			std::cout << "Tokelau, Tonga, Tuvalu" << std::endl;
 		}
 	}
-
+	if (letter == 's' || letter == 'S') // written by Vitalii
+	{
+		if (region == 1)
+		{
+			std::cout << "Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Suriname" << std::endl; // default negative response
+		}
+		if (region == 2)
+		{
+			std::cout << "San Marino, Serbia, Slovakia (Slovak Republic), Slovenia, Spain, Sweden, Switzerland" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, SomaliaEastern, South Africa, South Sudan, Sudan, Swaziland (Eswatini)" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Saudi Arabia, Singapore, Sri Lanka, Syria, Syrian Arab Republic" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Samoa, Solomon Islands" << std::endl;
+		}
+	}
 	if (letter == 'z' || letter == 'Z') // written by Pete
 	{
 		if (region == 1)
