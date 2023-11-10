@@ -175,5 +175,28 @@ int main()
 		}
 	}
 	
+	if (letter == 'e' || letter == 'E') // written by Sofiia
+	{
+		if (region == 1)
+		{
+			std::cout << "Ecuador, El Salvador " << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Estonia Northern" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Egypt, Equatorial Guinea, Eritrea, Ethiopia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "East Timor (Timor-Leste)" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There is not Es Countries" << std::endl;
+		}
+	}
 	return 1;
 }
